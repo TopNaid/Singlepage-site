@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.header-container {
+    background-color: rgb(1, 38, 75);
+    padding: 2rem 5rem;
+    color: white;
+    border-bottom: 4px solid #fdb347;
+}
+.image img {
+    float: right;
+    border: 0.1rem solid #fdb347;
+    border-radius: .2rem;
+}
+.time, .day, .name, .email {
+    padding: 0.5rem 0;
+}
+#currenttime, #currentday {
+    border: 5px inset rgb(6, 83, 205);
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    padding: 0.1rem 0.2rem;
+    border-radius: 0.2rem;
+    width: fit-content;
+    text-align: center;
+}
+.name {
+    color: #fdb347;
+    font-weight: bold;
+}
+.description-list{
+    margin: 4rem;
+}
+.description-list dt{
+    font-size: 1.3rem;
+}
+.description-header {
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+p a {
+    color: white;
+    font-size: 0.8rem;
+}
+.extral, h6 {
+    margin-left: 3.2rem;
+}
+.extral, h5 {
+    font-weight: bold;
+}
+h6 a {
+    color: black;
+}
+.foot {
+    font-family: 'Montserrat', sans-serif;
+    padding: 2.5rem;
+    font-size: 1.1rem;
+}
+.list-unstyled a {
+    text-decoration: none;
+    color: inherit;
+}
+.bottom {
+    font-weight: bold;
+}
+.footimg {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+.footimg img {
+    width: 100%;
+    flex: 1;
+    
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    .header-container {
+        padding: 2.2rem;
+    }
+    
+    .image {
+        float: top;
+        display: block;
+        margin: 0 auto;
+    }
+    .decription-list {
+        margin: 2rem;
+    }
+    .extral, h6 {
+        margin-left: 2rem;
+    }
+    .foot {
+        padding: 2rem;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-container {
+        padding: 1.7rem;
+    }
+    .decription-list {
+        margin: 1rem;
+    }
+    .extral, h6 {
+        margin-left: 1rem;
+    }
+    .foot {
+        padding: 1.5rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-container {
+        padding: 1.2rem;
+    }
+    .decription-list {
+        margin: .1rem;
+    }
+    .extral, h6 {
+        margin-left: 1rem;
+    }
+    .foot {
+        padding: 1rem;
+        font-size: 0.8rem;
+    }
+    p a {
+        font-size: 0.7rem;
+    }
+}

@@ -1,0 +1,138 @@
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title data-testid="page-title">My Tech Goals</title>
+  </head>
+  <body data-testid="body">
+    <section data-testid="profile-section">
+        <header class="header-container" data-testid="header">
+            <div class="image" data-testid="profile-image-container">
+                <img src="image/rsz_1profilepix.jpg" alt="profilepic" data-testid="profile-image"> 
+            </div>
+            <div class="time" data-testid="time-container">
+                <p id="currenttime" data-testid="current-time"></p>
+            </div>
+            <div class="day" data-testid="day-container">
+                <p id="currentday" data-testid="current-day"></p>
+            </div>
+            <div class="slackname" data-testid="slackname-container">
+                <h5 data-testid="slack-display-name">Slack Name: <span class="name" data-testid="slack-name">Habeeb J</span></h5>
+            </div>
+            <div class="email" data-testid="email-container">
+                <h5 data-testid="email-display">Email: <span class="name" data-testid="email-address">temitopejinad1@gmail.com</span></h5>
+            </div>
+        </header>
+     </section>
+     <section data-testid="goals-section">
+        <div class="description-list" data-testid="description-list">
+            <h1 class="description-header" data-testid="description-header">My Tech Goals for the Next Two Years</h1>
+
+            <dl data-testid="projects-section">
+                <dt data-testid="projects-title">Project Experience</dt>
+                <dd data-testid="projects-description">Build real-world projects to create a portfolio that showcases my skills, including open-source contributions and personal projects.
+                    Work on collaboration by participating in team projects or contributing to open-source communities.</dd>
+            </dl>
+            <dl data-testid="skills-section">
+                <dt data-testid="skills-title">Skill Development</dt>
+                <dd data-testid="skills-description">I already have a basic knowledge in backend programming language like Python. I would ensure I master it and also add other relevant programming to attain my goal of becoming a fullstack developer.
+                    I would ensure I stay updated with the latest frameworks, libraries, and tools.</dd>
+            </dl>
+            <dl data-testid="certifications-section">
+                <dt data-testid="certifications-title">Certifications and Education</dt>
+                <dd data-testid="certifications-description">I will obtain certifications relevant to my field, such as AWS Certified Solutions Architect or Google Cloud Professional Data Engineer.
+                    Consider enrolling in advanced courses or a part-time degree program to deepen my knowledge.</dd>
+            </dl>
+            <dl data-testid="networking-section">
+                <dt data-testid="networking-title">Networking and Community Involvement</dt>
+                <dd data-testid="networking-description">Attend conferences and meetups to engage with the tech community and stay informed about industry trends.
+                    Join professional groups or online communities to network with peers and mentors.</dd>
+            </dl>
+            <dl data-testid="career-section">
+                <dt data-testid="career-title">Career Advancement</dt>
+                <dd data-testid="career-description">Seek promotions or new opportunities that align with my career goals, aiming for roles that offer growth and development.
+                    I will find a mentor who can guide me in my career growth, or become a mentor to help others and solidify my own knowledge.</dd>
+            </dl>
+            <dl data-testid="trends-section">
+                <dt data-testid="trends-title">Staying Updated with Industry Trends</dt>
+                <dd data-testid="trends-description">Regularly read tech blogs, journals, and news websites to stay informed about the latest trends and advancements in technology.
+                    Allocate time to experiment with emerging technologies such as artificial intelligence, machine learning, or blockchain.</dd>
+            </dl>
+            <dl data-testid="soft-skills-section">
+                <dt data-testid="soft-skills-title">Soft Skills</dt>
+                <dd data-testid="soft-skills-description">Improve my communication skills, both written and verbal, to enhance my ability to collaborate with teams and present my ideas.
+                    I will develop effective time management and organizational skills to handle multiple projects and deadlines efficiently.</dd>
+            </dl>
+            <dl data-testid="wellbeing-section">
+                <dt data-testid="wellbeing-title">Personal Well-being</dt>
+                <dd data-testid="wellbeing-description">Strive to maintain a healthy work-life balance to avoid burnout and ensure long-term productivity and satisfaction.
+                    Adopt a mindset of continuous learning and adaptability to stay resilient in the fast-paced tech industry.</dd>
+            </dl>             
+        </div>
+        <div data-testid="learn-about-section">
+            <h5 class="extral" data-testid="learn-about-header">Learn About</h5>
+            <h6><a href="https://keyword.dog/" data-testid="learn-about-keyworddog">KeywordDog</a></h6>
+            <h6><a href="https://scrapeanyweb.site/" data-testid="learn-about-scrapeanyweb">Scrapeanyweb</a></h6>
+        </div>
+     </section>
+     <footer class="bg-dark text-white mt-5" data-testid="footer">
+        <div class="footimg" data-testid="footer-images">
+            <img src="image/rsz_2rowofhouse.jpg" alt="house image 1" data-testid="footer-image-1">
+            <img src="image/rsz_2rowofhouse.jpg" alt="house image 2" data-testid="footer-image-2">
+            <img src="image/rsz_2rowofhouse.jpg" alt="house image 3" data-testid="footer-image-3">
+        </div>
+        <div class="foot" data-testid="footer-content">
+            <div class="row">
+                <div class="col-md-4" data-testid="footer-about">
+                <h5 data-testid="footer-about-header"><span class="bottom">About HNG</span></h5>
+                <p data-testid="footer-about-text">HNG is a company that is on a mission to make people...<a href="https://hng.tech/learn" data-testid="hng-link">Learn more</a></p>
+                </div>
+                <div class="col-md-4" data-testid="footer-contact">
+                <h5 data-testid="footer-contact-header"><span class="bottom">Contact</span></h5>
+                <ul class="list-unstyled" data-testid="footer-contact-list">
+                    <li data-testid="footer-contact-email">Email: temitopejinad1@gmail.com</li>
+                </ul>
+                </div>
+                <div class="col-md-4" data-testid="footer-follow">
+                <h5 data-testid="footer-follow-header"><span class="bottom">Follow HNG</span></h5>
+                <ul class="list-unstyled" data-testid="footer-follow-list">
+                    <li><a href="https://m.facebook.com/hngtech/" class="text-white" data-testid="footer-follow-facebook">Facebook</a></li>
+                    <li><a href="https://x.com/hnginternship?mx=2" class="text-white" data-testid="footer-follow-twitter">Twitter</a></li>
+                    <li><a href="https://www.linkedin.com/company/hng-internship/" class="text-white" data-testid="footer-follow-linkedin">LinkedIn</a></li>
+                </ul>
+                </div>
+            </div>
+            <div class="text-center mt-3" data-testid="footer-copyright">
+                <p>&copy; 2024 Habeeb. All rights reserved.</p>
+           </div>
+        </div>
+    </footer>
+    <script>
+        // Current time 
+        function displayUTCTime() {
+            var now = new Date();
+            var hours = String(now.getUTCHours()).padStart(2, '0');
+            var minutes = String(now.getUTCMinutes()).padStart(2, '0');
+            var seconds = String(now.getUTCSeconds()).padStart(2, '0');
+            var utcTimeString = hours + ':' + minutes + ':' + seconds;
+            document.getElementById("currenttime").innerHTML = utcTimeString;
+        }
+        displayUTCTime();
+        setInterval(displayUTCTime, 1000);
+
+        // Current day of the week
+        function displayDayOfWeek() {
+            var now = new Date();
+            var daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+            var dayName = daysOfWeek[now.getDay()];
+            document.getElementById("currentday").innerHTML = dayName;
+        }
+        displayDayOfWeek();
+    </script>
+  </body>
+</html>

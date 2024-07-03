@@ -76,11 +76,9 @@ h6 a:hover{
 }
 .footimg {
     display: flex;
-    width: 100%;
     overflow: hidden;
 }
 .footimg img {
-    width: 100%;
     flex: 1;
     
 }
@@ -96,7 +94,7 @@ h6 a:hover{
         display: block;
         margin: 0 auto;
     }
-    .decription-list {
+    .description-list {
         margin: 2rem;
     }
     .extral, h6 {
@@ -112,7 +110,7 @@ h6 a:hover{
     .header-container {
         padding: 1.7rem;
     }
-    .decription-list {
+    .description-list {
         margin: 1rem;
     }
     .extral, h6 {
@@ -124,12 +122,18 @@ h6 a:hover{
     }
 }
 
+
 @media (max-width: 480px) {
     .header-container {
-        padding: 1.2rem;
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
-    .decription-list {
-        margin: .1rem;
+    .description-list {
+        margin: 1rem;
+        padding: 1rem;
     }
     .extral, h6 {
         margin-left: 1rem;

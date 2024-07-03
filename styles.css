@@ -34,6 +34,11 @@ body {
     color: #fdb347;
     font-weight: bold;
 }
+.time{
+   display: flex;
+   gap: .8rem;
+   font-weight: bold;
+}
 .description-list{
     margin: 4rem;
 }
